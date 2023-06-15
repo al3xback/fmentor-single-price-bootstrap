@@ -1,0 +1,72 @@
+@use 'sass:math';
+@use '../abstracts/variables' as var;
+@use '../abstracts/functions' as func;
+
+body {
+	--bs-body-bg: #{var.$color-light-gray};
+	--bs-body-font-family: #{var.$font-family-primary};
+	--bs-body-font-size: #{func.em(var.$font-size-primary)};
+	--bs-body-font-weight: #{var.$font-weight-400};
+	--bs-body-color: #{var.$color-grayish-blue};
+	--bs-body-line-height: #{math.div(24, 14)};
+	--bs-body-text-align: left;
+}
+
+.container-fluid {
+	--bs-gutter-x: 3em;
+}
+
+.card {
+	--bs-card-bg: #{var.$color-white};
+	--bs-card-border-width: 0;
+	--bs-card-border-color: transparent;
+	--bs-card-border-radius: 8px;
+}
+
+.card-body {
+	--bs-card-spacer-x: 0;
+	--bs-card-spacer-y: 0;
+}
+
+.card-title {
+	--bs-card-title-spacer-y: 1em;
+}
+
+h3.card-title {
+	--bs-card-title-color: inherit;
+}
+
+mark {
+	--bs-highlight-bg: transparent;
+	padding: 0;
+}
+
+.btn {
+	--bs-btn-padding-x: #{func.em(12, var.$font-size-primary)};
+	--bs-btn-padding-y: #{func.em(12, var.$font-size-primary)};
+	--bs-btn-font-size: #{func.em(16, var.$font-size-primary)};
+	--bs-btn-line-height: 1.24;
+}
+
+.btn-primary {
+	--bs-btn-bg: #{var.$color-bright-yellow};
+	--bs-btn-border-color: #{var.$color-bright-yellow};
+	--bs-btn-hover-bg: #{var.$color-bright-yellow-dark};
+	--bs-btn-hover-border-color: #{var.$color-bright-yellow-dark};
+	--bs-btn-active-bg: #{var.$color-bright-yellow-dark};
+	--bs-btn-active-border-color: #{var.$color-bright-yellow-dark};
+	--bs-btn-disabled-bg: #{var.$color-bright-yellow};
+	--bs-btn-disabled-border-color: #{var.$color-bright-yellow};
+}
+
+.link-primary {
+	--bs-primary-rgb: #{var.$color-cyan-rgb};
+}
+
+.link-primary:hover,
+.link-primary:focus {
+	color: #{var.$color-cyan} !important;
+}
+
+@media (min-width: 48em) {
+}

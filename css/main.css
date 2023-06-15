@@ -11886,6 +11886,7 @@ body {
 
 .card-title {
   --bs-card-title-spacer-y: 1em;
+  --bs-card-title-color: hsl(179, 62%, 43%);
 }
 
 h3.card-title {

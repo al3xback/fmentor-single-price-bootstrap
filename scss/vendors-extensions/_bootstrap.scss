@@ -30,6 +30,7 @@ body {
 
 .card-title {
 	--bs-card-title-spacer-y: 1em;
+	--bs-card-title-color: #{var.$color-cyan};
 }
 
 h3.card-title {

@@ -1,7 +1,7 @@
 {
 	"name": "fmentor-single-price-bootstrap",
 	"version": "1.0.0",
-	"description": "single price component project using bootstrap 5",
+	"description": "single price grid component using bootstrap 5",
 	"main": "index.js",
 	"scripts": {
 		"dev": "sass --watch scss/main.scss css/main.css",

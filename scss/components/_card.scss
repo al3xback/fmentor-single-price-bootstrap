@@ -6,16 +6,14 @@
 	width: 100%;
 	margin: func.em(40, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
-	@include mix.box-shadow(
-		0 func.em(16, var.$font-size-primary)
-			func.em(30, var.$font-size-primary) rgba(0, 0, 0, 0.04)
-	);
+	box-shadow: 0 func.em(16, var.$font-size-primary)
+		func.em(30, var.$font-size-primary) rgba(0, 0, 0, 0.04);
 	overflow: hidden;
 }
 
 .card-block-group {
-	@include mix.flexbox;
-	@include mix.flex-direction(column);
+	display: flex;
+	flex-direction: column;
 }
 
 .card-block {
@@ -88,7 +86,7 @@
 	}
 
 	.card-block-group {
-		@include mix.flex-direction(row);
+		flex-direction: row;
 	}
 
 	.card-block-group .card-block {

@@ -1,7 +1,7 @@
 @use '../abstracts/mixins' as mix;
 
 .btn {
-	@include mix.box-shadow(0rem 0.5em 1.125em rgba(0, 0, 0, 0.2));
+	box-shadow: 0rem 0.5em 1.125em rgba(0, 0, 0, 0.2);
 }
 
 [class^='link-'] {

@@ -40,9 +40,3 @@ p {
 strong {
 	font-weight: var.$font-weight-700;
 }
-
-mark {
-	font-size: func.em(15, var.$font-size-primary);
-	font-weight: var.$font-weight-700;
-	color: var.$color-bright-yellow;
-}

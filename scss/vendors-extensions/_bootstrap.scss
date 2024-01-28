@@ -33,13 +33,15 @@ body {
 	--bs-card-title-color: #{var.$color-cyan};
 }
 
-h3.card-title {
-	--bs-card-title-color: inherit;
+.card-subtitle {
+	margin-bottom: #{func.em(16, 15)};
+	font-size: #{func.em(15, var.$font-size-primary)};
+	font-weight: #{var.$font-weight-700};
+	--bs-card-subtitle-color: #{var.$color-bright-yellow};
 }
 
-mark {
-	--bs-highlight-bg: transparent;
-	padding: 0;
+h3.card-title {
+	--bs-card-title-color: inherit;
 }
 
 .btn {

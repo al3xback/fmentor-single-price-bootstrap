@@ -19,8 +19,8 @@
 		func.em(24, var.$font-size-primary);
 }
 
-.card-mark {
-	margin-bottom: func.em(16, 15);
+.card-subtitle {
+	background-color: transparent;
 	line-height: 1.3;
 }
 
@@ -79,7 +79,7 @@
 		font-size: func.em(24, var.$font-size-primary);
 	}
 
-	.card-mark {
+	.card-subtitle {
 		font-size: func.em(18, var.$font-size-primary);
 	}
 

@@ -5,7 +5,7 @@
 	width: 100%;
 	margin: func.em(30, var.$font-size-primary) 0
 		func.em(60, var.$font-size-primary);
-	box-shadow: 0 16px 30px rgba(0, 0, 0, 0.04);
+	box-shadow: 0 16px 24px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 }
 
@@ -21,6 +21,8 @@
 
 .card-subtitle {
 	background-color: transparent;
+	font-size: #{func.em(15, var.$font-size-primary)};
+	font-weight: #{var.$font-weight-700};
 	line-height: 1.3;
 }
 
@@ -39,6 +41,7 @@
 
 .card-price {
 	margin-top: func.em(-6, var.$font-size-primary);
+	margin-bottom: 0;
 	font-size: func.em(16, var.$font-size-primary);
 }
 
@@ -53,11 +56,11 @@
 }
 
 .card-block--monthly-subsription .card-text {
-	margin-bottom: func.em(28, 15);
-	font-size: func.em(15, var.$font-size-primary);
+	margin-bottom: func.em(30, var.$font-size-primary);
 }
 
 .card-list {
+	font-size: func.em(14, var.$font-size-primary);
 	line-height: 1.4;
 }
 

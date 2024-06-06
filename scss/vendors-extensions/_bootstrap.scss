@@ -8,7 +8,7 @@ body {
 	--bs-body-font-size: #{func.em(var.$font-size-primary)};
 	--bs-body-font-weight: #{var.$font-weight-400};
 	--bs-body-color: #{var.$color-grayish-blue};
-	--bs-body-line-height: #{math.div(24, 14)};
+	--bs-body-line-height: #{math.div(26, 16)};
 	--bs-body-text-align: left;
 }
 
@@ -29,14 +29,13 @@ body {
 }
 
 .card-title {
-	--bs-card-title-spacer-y: 1em;
+	--bs-card-title-spacer-y: 0.95em;
 	--bs-card-title-color: #{var.$color-cyan};
 }
 
 .card-subtitle {
-	margin-bottom: #{func.em(16, 15)};
-	font-size: #{func.em(15, var.$font-size-primary)};
-	font-weight: #{var.$font-weight-700};
+	margin-top: 0;
+	margin-bottom: #{func.em(12, 15)};
 	--bs-card-subtitle-color: #{var.$color-bright-yellow};
 }
 
@@ -54,10 +53,10 @@ h3.card-title {
 .btn-primary {
 	--bs-btn-bg: #{var.$color-bright-yellow};
 	--bs-btn-border-color: #{var.$color-bright-yellow};
-	--bs-btn-hover-bg: #{var.$color-bright-yellow-dark};
-	--bs-btn-hover-border-color: #{var.$color-bright-yellow-dark};
-	--bs-btn-active-bg: #{var.$color-bright-yellow-dark};
-	--bs-btn-active-border-color: #{var.$color-bright-yellow-dark};
+	--bs-btn-hover-bg: #{var.$color-bright-yellow};
+	--bs-btn-hover-border-color: #{var.$color-bright-yellow};
+	--bs-btn-active-bg: #{var.$color-bright-yellow};
+	--bs-btn-active-border-color: #{var.$color-bright-yellow};
 	--bs-btn-disabled-bg: #{var.$color-bright-yellow};
 	--bs-btn-disabled-border-color: #{var.$color-bright-yellow};
 }

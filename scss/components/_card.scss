@@ -19,13 +19,6 @@
 		func.em(24, var.$font-size-primary);
 }
 
-.card-subtitle {
-	background-color: transparent;
-	font-size: #{func.em(15, var.$font-size-primary)};
-	font-weight: #{var.$font-weight-700};
-	line-height: 1.3;
-}
-
 .card-block--monthly-subsription,
 .card-block--why-us {
 	color: var.$color-light-gray;
@@ -37,6 +30,16 @@
 
 .card-block--why-us {
 	background-color: var.$color-cyan-light;
+}
+
+.card-subtitle {
+	background-color: transparent;
+	font-weight: #{var.$font-weight-700};
+	line-height: 1.5;
+}
+
+.card-block--join-community .card-text {
+	font-size: func.em(15, var.$font-size-primary);
 }
 
 .card-price {
@@ -84,6 +87,10 @@
 
 	.card-subtitle {
 		font-size: func.em(18, var.$font-size-primary);
+	}
+
+	.card-block--join-community .card-text {
+		font-size: inherit;
 	}
 
 	.card-block-group {
